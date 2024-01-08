@@ -1,0 +1,9 @@
+﻿@model List<QueryComments>;
+
+
+<h4>Comments</h4>
+@foreach (var comment in Model)
+{
+    <div>@comment.Message : @comment.EditDate</div>
+}
+
